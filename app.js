@@ -21,7 +21,7 @@
 
     function userInput(message) {
         let input = prompt(message);
-        return input && input.trim().split(' ') || null;
+        return input && input.trim().split(' ');
     }
 
 }());
